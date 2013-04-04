@@ -1,5 +1,5 @@
 <?php
-use Acme\Application;
+use Amaziing\Application;
 
 require 'autoload.php';
 
