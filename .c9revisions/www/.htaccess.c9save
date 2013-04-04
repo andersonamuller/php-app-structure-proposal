@@ -1,4 +1,0 @@
-{"ts":1365075618872,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1365075770231,"patch":[[{"diffs":[[1,"IndexIgnore *\r\nOptions +followSymlinks\r\n\r\n<ifModule mod_rewrite.c>\r\n\r\n    RewriteEngine on\r\n\r\n    # if a directory or a file exists, use it directly\r\n    RewriteCond %{REQUEST_FILENAME} !-f\r\n    RewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n    # otherwise forward it to index.php\r\n    RewriteRule ^(.*)$ index.php\r\n\r\n</ifModule>"]],"start1":0,"start2":0,"length1":0,"length2":322}]],"length":322,"saved":false}
-{"ts":1365075773354,"patch":[[{"diffs":[[0,"ex.php\r\n"],[-1,"\r\n"],[0,"</ifModu"]],"start1":301,"start2":301,"length1":18,"length2":16}]],"length":320,"saved":false}
-{"ts":1365075776675,"patch":[[{"diffs":[[0,"ite.c>\r\n"],[-1,"\r\n"],[0,"    Rewr"]],"start1":60,"start2":60,"length1":18,"length2":16}]],"length":318,"saved":false}
